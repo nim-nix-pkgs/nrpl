@@ -11,6 +11,7 @@
   inputs.src-nrpl-master.ref   = "refs/heads/master";
   inputs.src-nrpl-master.owner = "vegansk";
   inputs.src-nrpl-master.repo  = "nrpl";
+  inputs.src-nrpl-master.dir   = "";
   inputs.src-nrpl-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
